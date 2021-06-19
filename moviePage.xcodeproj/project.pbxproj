@@ -12,6 +12,8 @@
 		D147ACC7267DD93F001DBC41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D147ACC6267DD93F001DBC41 /* ViewController.swift */; };
 		D147ACCC267DD941001DBC41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D147ACCB267DD941001DBC41 /* Assets.xcassets */; };
 		D147ACCF267DD941001DBC41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D147ACCD267DD941001DBC41 /* LaunchScreen.storyboard */; };
+		D147ACD7267DEC00001DBC41 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D147ACD6267DEC00001DBC41 /* HomeViewController.swift */; };
+		D147ACD9267DEC39001DBC41 /* FavouriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D147ACD8267DEC39001DBC41 /* FavouriteViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		D147ACCB267DD941001DBC41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D147ACCE267DD941001DBC41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D147ACD0267DD941001DBC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D147ACD6267DEC00001DBC41 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D147ACD8267DEC39001DBC41 /* FavouriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,11 @@
 				D147ACC2267DD93F001DBC41 /* AppDelegate.swift */,
 				D147ACC4267DD93F001DBC41 /* SceneDelegate.swift */,
 				D147ACC6267DD93F001DBC41 /* ViewController.swift */,
+				D147ACD6267DEC00001DBC41 /* HomeViewController.swift */,
 				D147ACCB267DD941001DBC41 /* Assets.xcassets */,
 				D147ACCD267DD941001DBC41 /* LaunchScreen.storyboard */,
 				D147ACD0267DD941001DBC41 /* Info.plist */,
+				D147ACD8267DEC39001DBC41 /* FavouriteViewController.swift */,
 			);
 			path = moviePage;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 				D147ACC7267DD93F001DBC41 /* ViewController.swift in Sources */,
 				D147ACC3267DD93F001DBC41 /* AppDelegate.swift in Sources */,
 				D147ACC5267DD93F001DBC41 /* SceneDelegate.swift in Sources */,
+				D147ACD9267DEC39001DBC41 /* FavouriteViewController.swift in Sources */,
+				D147ACD7267DEC00001DBC41 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
